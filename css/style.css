@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+
+::selection {
+    color: #FFF;
+    background: skyblue;
+  }
+
+ul{
+    padding-left: 0;
+}
+
+body{
+    text-align: justify;
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h3{
+    font-family: 'Tilt Warp', cursive;
+    text-transform: capitalize;
+    border-bottom: 1px dashed skyblue;
+    margin: 20px 0 20px 0;
+}
+
+i{
+    color: skyblue;
+    font-size: 20px;
+}
+
+button{
+    background-color: skyblue;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+}
+
+.contenedor{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+}
+
+.header{
+    margin-bottom: 50px;
+}
+
+
+.foto{
+    margin-bottom: 20px;
+}
+
+.foto img{
+    border-radius: 50%;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.bloque1{
+    font-size: 50px;
+    font-family: 'Tilt Warp', cursive;
+    text-transform: capitalize;
+    margin: 50px 0 20px 0;
+    font-weight: bold;
+}
+
+.nombre{
+    font-size: 40px;
+    font-family: 'Tilt Warp', cursive;
+
+}
+
+/* .nombre::before, .nombre::after {
+    content: "◉";
+  } */
+
+.profesion{
+    font-family: 'Tilt Warp', cursive;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    margin-bottom: 50px;
+}
+
+.presentaciones div{
+    margin-bottom: 20px;
+}
+
+.nav ul li{
+    display: inline;
+    padding-right: 5px;
+    margin-right: 10px;
+    /* border-right: 1px solid #000; */
+}
+
+.nav li a{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav li a:hover{
+    text-decoration: underline;
+}
+
+.nav a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+}
+
+.info_personal{
+    background-color: #F9F9F9;
+}
+
+.info_personal ul, .formacion_academica ul{
+    list-style: none;
+}
+
+.info_personal li, .formacion_academica li{
+    margin-bottom: 10px;
+}
+
+.extras li::before{
+	font-family:"Font Awesome 5 Free";
+	content:"\f0eb";
+	margin-right:8px;
+    color: skyblue;
+}
+
+.info_personal li i{
+    margin-right: 10px;
+}
+
+.mas_info, .mas_exp{
+    display: none;
+}
+
+.subtitulo{
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 50px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    button{
+        height: 40px;
+        width: 100%;
+    }
+    
+    .nav ul li{
+        margin: 0;
+    }
+    .nav li a{
+        font-size: 12px;
+    }
+  }
